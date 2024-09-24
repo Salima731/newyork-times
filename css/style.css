@@ -97,7 +97,22 @@ body{
     height: 2px;
     background-color: black;
     position: absolute;
-    left: 0px;
-    bottom: -1px;
-    width: 100px;
+    left: 50%;
+    bottom: -2px;
+    width: 100%;
+    transition: all 0.45s ease-in-out;
+    transform: translate(-50%);
+}
+.nav-class ul li svg{
+    width: 8px;
+} 
+.nav-class nav ul li a::after{
+    content: '';
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    bottom: -2px;
+    width: 0%;
+    transition: all 0.45s ease-in-out;
 }
