@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+.outer-class{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+body{
+    margin: 0px;
+    font-family:"Playfair Display", serif;
+    font-weight: 400;
+}
+.header-bg{
+    display: flex;
+    justify-content: space-between;
+}
+.header-search-icon{
+    width: 20px;
+    margin-top: 5px;
+}
+*{
+    margin: 0px;
+}
+.header-date-column{
+    font-size: 13px;
+}
+.header-date-column a{
+    text-decoration: none;
+    color: black;
+    padding-top: 5px;
+    display: block;
+}
+.header-toper nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+.header-toper nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.header-logo{
+    width: 450px;
+    margin-top: 15px;
+}
+.header-toper{
+    text-align: center;
+}
+.header-search{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header-row1-col3 a{
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 7px;
+}
+.header-row1-col3{
+    display:flex;
+    gap: 10px;
+}
+.header-row1-col3 a:hover{
+    background-color: rgb(14, 128, 156)
+}
+.stats{
+    color: rgb(36, 128, 0);
+    padding-left: 10px;
+}
+.stats-column{
+    text-align: right;
+    font-size: 14px;
+}
+.nav-class nav ul li{
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    
+    
+}
+.nav-class nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size:13px ;
+    position: relative;
+    
+}
+.nav-class nav{
+    text-align: center;
+}
+.nav-class nav ul li a:hover::after{
+    content: '';
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    left: 0px;
+    bottom: -1px;
+    width: 100px;
+}
