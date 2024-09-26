@@ -26,7 +26,7 @@ body{
     text-decoration: none;
     color: black;
     padding-top: 5px;
-    display: block;
+    display: inline-block;
 }
 .header-toper nav ul li {
     display: inline-block;
@@ -77,22 +77,25 @@ body{
 }
 .nav-class nav ul li{
     display: inline-block;
-    list-style: none;
-    text-align: center;
-    
-    
+    list-style: none; 
+
 }
 .nav-class nav ul li a{
     text-decoration: none;
     color: black;
-    font-size:13px ;
+    font: size 13px;
     position: relative;
     
 }
 .nav-class nav{
     text-align: center;
+    
 }
-.nav-class nav ul li a:hover::after{
+.nav-border{
+    border-bottom: solid 1px black  ;
+
+}
+.nav-class nav ul li:hover a::after{
     content: '';
     height: 2px;
     background-color: black;
